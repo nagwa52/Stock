@@ -1,0 +1,116 @@
+  .logo{
+text-transform: uppercase;
+  padding: 5px 0px;
+  display: inline-block;
+  font-size: 70px;
+  color: gold;
+  white-space: nowrap;
+  font-weight: 600;
+  line-height: 30px;
+  overflow: hidden;
+  text-align: center;
+  display: block;
+   border-radius: 4px;
+}
+.fonts{
+  text-align: right;
+  font-size: 20px;
+  font-weight: 15px;}
+.buttonprim {
+  color: #ffffff;
+  background-color:#9c27b0;
+  border-color: #9c27b0;
+  box-shadow: none;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.buttonprim:hover {
+  color: #ffffff;
+  background-color:#9c27b0;
+  border-color:#9c27b0;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.buttonprim:focus,
+.buttonprim.focus {
+  box-shadow: none, 0 0 0 0.2rem rgba(208, 33, 243, 0.363);
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.buttonprim.disabled,
+.buttonprim:disabled {
+  color: #ffffff;
+  background-color: #9c27b0;
+  border-color:#9c27b0;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.buttonprim:not(:disabled):not(.disabled):active,
+.buttonprim:not(:disabled):not(.disabled).active,
+.show>.buttonprim.dropdown-toggle {
+  color: #ffffff;
+  background-color:#9c27b0;
+  border-color: #9c27b0;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.buttonprim:not(:disabled):not(.disabled):active:focus,
+.buttonprim:not(:disabled):not(.disabled).active:focus,
+.show>.buttonprim.dropdown-toggle:focus {
+  box-shadow: none, 0 0 0 0.2rem rgba(208, 33, 243, 0.363);
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.lablebtn{
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+.font_btn{
+  color: black;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+h1{
+text-align: center;
+}
+h2{
+  text-align: center; 
+}
+h3{
+  text-align: center;  
+}
+.logo_shape{
+  padding: 20px 10px;
+  margin: 0;
+  display: block;
+  position: relative;
+  z-index: 4;
+}
+.navigation {
+  margin-top: 0px;
+  display: block;
+}
+html[dir="rtl"] .navigation {
+  padding-right: 0px;
+}
+.ps{
+  font-size: 22px;
+}

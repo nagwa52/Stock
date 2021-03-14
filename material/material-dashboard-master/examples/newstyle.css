@@ -1,0 +1,16 @@
+#button1{
+    width: 180px;
+    height: 80px;
+    display: inline-block;
+    padding: auto;
+}
+#button2{
+    width: 180px;
+    height: 80px;
+    display: inline-block;
+    padding: auto;
+}
+#container{
+    text-align: center;
+    
+}
